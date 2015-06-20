@@ -1,0 +1,8 @@
+- Reposition the level up click, so the hero to be leveld is easier to place
+- Skill usage is not as tight as it could be
+- Updates for the ancients that prolong skill duration
+- Autoscroll to the gilded hero
+- Auto Ascension
+- Ancient auto leveling
+
+Automating the Idle part (to be fixed last)
