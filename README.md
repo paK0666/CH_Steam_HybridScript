@@ -12,14 +12,14 @@ It will perform the following tasks:
 
 Control:
 After running the script the following hotkeys are used to interact with the script:
-F8: Toggle clicking on candy on/off (default is on)\n
-F9: Start the activities(uses all skills once and then starts clicking)\n 
-F10: Stop the activities\n
-F11: Exit the script\n
+F8: Toggle clicking on candy on/off (default is on)  
+F9: Start the activities(uses all skills once and then starts clicking)   
+F10: Stop the activities  
+F11: Exit the script  
 
 Place the hero to be leveled on the near bottom of the screen, so that the next hero
 is about half visible
 
-First release on 20.06.2015\n
-Written by paK066\n
-Heavily based on a similar script by FlyingPoulpus\n
+First release on 20.06.2015  
+Written by paK066  
+Heavily based on a similar script by FlyingPoulpus
