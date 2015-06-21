@@ -1,4 +1,3 @@
-;version 0.1
 #SingleInstance force 
 #Persistent
 
@@ -10,6 +9,8 @@ global getCandy := true
 ;toggle Candy on/off
 F8::
 	getCandy := !getCandy
+	MsgBox %getCandy%
+	return
 
 ;start the script
 F9::
@@ -74,6 +75,12 @@ Run() {
 	return
 }
 
+GetWindowAttributes() {
+	SetTitleMatchMode 3 ; window title contains the string supplied
+    WinActivate %title%
+    return
+}
+
 useSkillsOnce() {
 	ControlSend,, 8, %title%
 	ControlSend,, 6, %title%
@@ -85,13 +92,6 @@ useSkillsOnce() {
 	ControlSend,, 5, %title%
 	ControlSend,, 7, %title%
 }
-
-GetWindowAttributes() {
-	SetTitleMatchMode 3 ; window title contains the string supplied
-    WinActivate %title%
-    return
-}
-
 
 getCandies() {
 	ControlClick, % "x" 527 " y" 486, %title%,,,, NA
