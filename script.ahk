@@ -1,3 +1,4 @@
+;version 0.11
 #SingleInstance force 
 #Persistent
 
@@ -32,6 +33,7 @@ Run() {
 	SetMouseDelay 0
 	SetControlDelay -1
 	timer := 0
+	getCandy := true
 	
 	GetWindowAttributes()
 	useSkillsOnce()
