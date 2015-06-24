@@ -10,7 +10,6 @@ global getCandy := true
 ;toggle Candy on/off
 F8::
 	getCandy := !getCandy
-	MsgBox %getCandy%
 	return
 
 ;start the script
